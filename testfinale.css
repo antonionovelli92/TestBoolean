@@ -1,57 +1,73 @@
-html{
+body{
   background-image: url("background.jpg");
-
-  background-size: contain;
+  background-size:cover;
 }
 
 .Container{
-  width: 1000px;
-  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
-
-
-
+  width: 1000px;
+  font-size: 12px;
 }
-/* impostare sfondo al centro */
-
-
 
 .logolim{
-  width: 200px;
+  margin-top: 75px;
   align-content: center;
+  width: 200px;
 }
+
 .subtitle{
   color: #00ff00;
+  margin-top: auto;
+  margin-bottom: auto;
   width: 1000px;
-
+  font-size: 27px;
 }
-.navbar{
-background-color: #00ff00
 
-
-
+.boxed {
+  background-color:#00ff00;
+  width: 50;
+  border: 1px #00ff00;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 5px;
+  margin-left: 100px;
+  margin-right: 70px;
 }
+
 .Card{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: auto;
   margin-right: auto;
-    margin-left: auto;
-    width: 1000px;
-    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.5);
-    height: 1000px;
-    border-radius: 5px;
-    /* backdrop-filter: blur(14px); */
-    background-color: rgba(32, 32, 32, 0.2);
-    padding: 10px;
-    text-align: center;
+  padding: 8px;
+  width: 1000px;
+  height: 650px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  backdrop-filter: blur(1px);
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
 }
 
 main{
   text-align: left;
-  color: white
-
+  color: white;
+  margin-top: 25px;
 }
-.row1.1{
-  font-size: 25px;
 
+.distanza, .distanza2, .distanza3{
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.row1, .row2, .row3{
+  padding: 1px;
+  margin-left: 100px;
 }
 
 #giallo {
@@ -59,9 +75,7 @@ main{
   color: yellow;
   border-radius: 3px;
   margin-right: 700px;
-
 }
-
 
 #verde {
   background-color: green;
@@ -70,11 +84,9 @@ main{
   margin-right: 500px;
 }
 
-
 #rosso {
   background-color: red;
   color: red;
   border-radius: 3px;
-  margin-right: 800px;
-
+  margin-right: 700px;
 }
