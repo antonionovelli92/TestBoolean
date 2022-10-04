@@ -1,0 +1,80 @@
+html{
+  background-image: url("background.jpg");
+
+  background-size: contain;
+}
+
+.Container{
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+
+
+
+}
+/* impostare sfondo al centro */
+
+
+
+.logolim{
+  width: 200px;
+  align-content: center;
+}
+.subtitle{
+  color: #00ff00;
+  width: 1000px;
+
+}
+.navbar{
+background-color: #00ff00
+
+
+
+}
+.Card{
+  margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.5);
+    height: 1000px;
+    border-radius: 5px;
+    /* backdrop-filter: blur(14px); */
+    background-color: rgba(32, 32, 32, 0.2);
+    padding: 10px;
+    text-align: center;
+}
+
+main{
+  text-align: left;
+  color: white
+
+}
+.row1.1{
+  font-size: 25px;
+
+}
+
+#giallo {
+  background-color: yellow;
+  color: yellow;
+  border-radius: 3px;
+  margin-right: 700px;
+
+}
+
+
+#verde {
+  background-color: green;
+  color: green;
+  border-radius: 3px;
+  margin-right: 500px;
+}
+
+
+#rosso {
+  background-color: red;
+  color: red;
+  border-radius: 3px;
+  margin-right: 800px;
+
+}
